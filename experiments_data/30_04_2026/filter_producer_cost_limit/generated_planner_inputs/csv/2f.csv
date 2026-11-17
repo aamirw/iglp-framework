@@ -1,0 +1,57 @@
+Value chain states:
+id,name,isStartState,isFinalState,index
+1,medium_ver_start_A,True,False,1
+5,medium_ver_middle1_A,False,False,2
+9,medium_ver_middle2_A,False,False,3
+2,medium_ver_start_B,True,False,1
+6,medium_ver_middle1_B,False,False,2
+3,medium_ver_start_C,True,False,1
+7,medium_ver_middle1_C,False,False,2
+4,medium_ver_start_D,True,False,1
+8,medium_ver_middle1_D,False,False,2
+10,medium_ver_end,False,True,3
+Producers:
+id,name,trade,enterprise,valueChainParameters,meanShippingDistance
+1,Producer_1,A,micro,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",56
+2,Producer_2,B,micro,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",45
+3,Producer_3,C,micro,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",57
+4,Producer_4,D,micro,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",42
+5,Producer_5,A,micro,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",34
+6,Producer_6,B,micro,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",47
+7,Producer_7,C,micro,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",51
+8,Producer_8,D,micro,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",40
+9,Producer_9,A,micro,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",34
+10,Producer_10,B,micro,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",44
+11,Producer_11,C,micro,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",55
+12,Producer_12,D,micro,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",40
+13,Producer_13,A,micro,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",37
+14,Producer_14,B,small,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",34
+15,Producer_15,C,small,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",50
+16,Producer_16,D,small,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",54
+17,Producer_17,A,small,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",34
+18,Producer_18,B,small,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",38
+Process steps:
+initialStateId,initialStateName,finalStateId,finalStateName,stepsRequired,tradeRequired,preconditions,isFinalStep,producerId,costs,processingTimeInWeeks,workingTimeInHours
+1,medium_ver_start_A,5,medium_ver_middle1_A,1,A,,False,1,284.0,31.0,8.5
+2,medium_ver_start_B,6,medium_ver_middle1_B,1,B,,False,2,267.5,25.5,8.5
+3,medium_ver_start_C,7,medium_ver_middle1_C,1,C,,False,3,285.5,31.5,8.5
+4,medium_ver_start_D,8,medium_ver_middle1_D,1,D,,False,4,263.0,24.0,8.5
+5,medium_ver_middle1_A,9,medium_ver_middle2_A,1,A,,False,5,251.0,20.0,8.5
+6,medium_ver_middle1_B,10,medium_ver_end,1,B,"[{'id': 9, 'deliveryTimeLatestInWeeks': 1}, {'id': 7, 'deliveryTimeLatestInWeeks': 1}, {'id': 8, 'deliveryTimeLatestInWeeks': 1}]",True,6,200,3,8.5
+7,medium_ver_middle1_C,10,medium_ver_end,1,C,"[{'id': 9, 'deliveryTimeLatestInWeeks': 1}, {'id': 6, 'deliveryTimeLatestInWeeks': 1}, {'id': 8, 'deliveryTimeLatestInWeeks': 1}]",True,7,200,3,8.5
+8,medium_ver_middle1_D,10,medium_ver_end,1,D,"[{'id': 9, 'deliveryTimeLatestInWeeks': 1}, {'id': 6, 'deliveryTimeLatestInWeeks': 1}, {'id': 7, 'deliveryTimeLatestInWeeks': 1}]",True,8,200,3,8.5
+9,medium_ver_middle2_A,10,medium_ver_end,1,A,"[{'id': 6, 'deliveryTimeLatestInWeeks': 1}, {'id': 7, 'deliveryTimeLatestInWeeks': 1}, {'id': 8, 'deliveryTimeLatestInWeeks': 1}]",True,9,200,3,8.5
+2,medium_ver_start_B,6,medium_ver_middle1_B,1,B,,False,10,266.0,25.0,8.5
+3,medium_ver_start_C,7,medium_ver_middle1_C,1,C,,False,11,282.5,30.5,8.5
+4,medium_ver_start_D,8,medium_ver_middle1_D,1,D,,False,12,260.0,23.0,8.5
+1,medium_ver_start_A,5,medium_ver_middle1_A,1,A,,False,13,255.5,21.5,8.5
+2,medium_ver_start_B,10,medium_ver_end,2,B,"[{'id': 9, 'deliveryTimeLatestInWeeks': 1}, {'id': 7, 'deliveryTimeLatestInWeeks': 1}, {'id': 8, 'deliveryTimeLatestInWeeks': 1}]",True,14,400,6,8.5
+6,medium_ver_middle1_B,10,medium_ver_end,1,B,"[{'id': 9, 'deliveryTimeLatestInWeeks': 1}, {'id': 7, 'deliveryTimeLatestInWeeks': 1}, {'id': 8, 'deliveryTimeLatestInWeeks': 1}]",True,14,200,3,8.5
+3,medium_ver_start_C,10,medium_ver_end,2,C,"[{'id': 9, 'deliveryTimeLatestInWeeks': 1}, {'id': 6, 'deliveryTimeLatestInWeeks': 1}, {'id': 8, 'deliveryTimeLatestInWeeks': 1}]",True,15,400,6,8.5
+7,medium_ver_middle1_C,10,medium_ver_end,1,C,"[{'id': 9, 'deliveryTimeLatestInWeeks': 1}, {'id': 6, 'deliveryTimeLatestInWeeks': 1}, {'id': 8, 'deliveryTimeLatestInWeeks': 1}]",True,15,200,3,8.5
+4,medium_ver_start_D,10,medium_ver_end,2,D,"[{'id': 9, 'deliveryTimeLatestInWeeks': 1}, {'id': 6, 'deliveryTimeLatestInWeeks': 1}, {'id': 7, 'deliveryTimeLatestInWeeks': 1}]",True,16,400,6,8.5
+8,medium_ver_middle1_D,10,medium_ver_end,1,D,"[{'id': 9, 'deliveryTimeLatestInWeeks': 1}, {'id': 6, 'deliveryTimeLatestInWeeks': 1}, {'id': 7, 'deliveryTimeLatestInWeeks': 1}]",True,16,200,3,8.5
+1,medium_ver_start_A,9,medium_ver_middle2_A,2,A,,False,17,451.0,23.0,8.5
+1,medium_ver_start_A,10,medium_ver_end,3,A,"[{'id': 6, 'deliveryTimeLatestInWeeks': 1}, {'id': 7, 'deliveryTimeLatestInWeeks': 1}, {'id': 8, 'deliveryTimeLatestInWeeks': 1}]",True,17,600,9,8.5
+2,medium_ver_start_B,10,medium_ver_end,2,B,"[{'id': 9, 'deliveryTimeLatestInWeeks': 1}, {'id': 7, 'deliveryTimeLatestInWeeks': 1}, {'id': 8, 'deliveryTimeLatestInWeeks': 1}]",True,18,400,6,8.5
+2,medium_ver_start_B,6,medium_ver_middle1_B,1,B,,False,18,257.0,22.0,8.5

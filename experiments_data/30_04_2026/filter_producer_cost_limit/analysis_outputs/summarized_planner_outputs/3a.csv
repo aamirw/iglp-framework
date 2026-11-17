@@ -1,0 +1,19 @@
+planId,combinedStatesName,producers,totalCost,stepRedundancyCount,valueChainsCount
+37604,high_hor_start_A-high_hor_middle4_A-high_hor_middle4_A-high_hor_end-high_hor_start_B-high_hor_end,"['Producer_9', 'Producer_8', 'Producer_8']",1251.0,[12 15  6],5
+37605,high_hor_start_B-high_hor_middle1_B-high_hor_middle1_B-high_hor_end-high_hor_start_A-high_hor_end,"['Producer_2', 'Producer_9', 'Producer_9']",1267.5,[12 12  3],5
+37606,high_hor_start_B-high_hor_middle1_B-high_hor_middle1_B-high_hor_end-high_hor_start_A-high_hor_end,"['Producer_6', 'Producer_9', 'Producer_9']",1270.5,[12 12  3],5
+37607,high_hor_start_B-high_hor_middle1_B-high_hor_middle1_B-high_hor_end-high_hor_start_A-high_hor_end,"['Producer_10', 'Producer_9', 'Producer_9']",1266.0,[12 12  3],5
+37608,high_hor_start_A-high_hor_middle4_A-high_hor_middle4_A-high_hor_end-high_hor_start_B-high_hor_end,"['Producer_9', 'Producer_10', 'Producer_10']",1251.0,[12 15  6],5
+37609,high_hor_start_A-high_hor_middle4_A-high_hor_middle4_A-high_hor_end-high_hor_start_B-high_hor_end,"['Producer_9', 'Producer_12', 'Producer_12']",1251.0,[12 15  6],5
+37610,high_hor_start_A-high_hor_middle4_A-high_hor_start_B-high_hor_middle1_B-high_hor_middle4_A-high_hor_end-high_hor_middle1_B-high_hor_end,"['Producer_9', 'Producer_2', 'Producer_4', 'Producer_4']",1318.5,[12 12 15 12],5
+37611,high_hor_start_A-high_hor_middle4_A-high_hor_start_B-high_hor_middle1_B-high_hor_middle4_A-high_hor_end-high_hor_middle1_B-high_hor_end,"['Producer_9', 'Producer_6', 'Producer_4', 'Producer_4']",1321.5,[12 12 15 12],5
+37614,high_hor_start_B-high_hor_middle1_B-high_hor_start_A-high_hor_middle4_A-high_hor_middle4_A-high_hor_end-high_hor_middle1_B-high_hor_end,"['Producer_10', 'Producer_9', 'Producer_4', 'Producer_4']",1317.0,[12 12 15 12],5
+37616,high_hor_start_A-high_hor_middle1_A-high_hor_middle1_A-high_hor_middle4_A-high_hor_middle4_A-high_hor_end-high_hor_start_B-high_hor_end,"['Producer_1', 'Producer_11', 'Producer_8', 'Producer_8']",1366.5,[ 3  3 15  6],5
+37617,high_hor_start_A-high_hor_middle4_A-high_hor_start_B-high_hor_middle1_B-high_hor_middle4_A-high_hor_end-high_hor_middle1_B-high_hor_end,"['Producer_9', 'Producer_2', 'Producer_8', 'Producer_8']",1318.5,[12 12 15 12],5
+37618,high_hor_start_A-high_hor_middle4_A-high_hor_start_B-high_hor_middle1_B-high_hor_middle4_A-high_hor_end-high_hor_middle1_B-high_hor_end,"['Producer_9', 'Producer_6', 'Producer_8', 'Producer_8']",1321.5,[12 12 15 12],5
+37621,high_hor_start_B-high_hor_middle1_B-high_hor_start_A-high_hor_middle4_A-high_hor_middle4_A-high_hor_end-high_hor_middle1_B-high_hor_end,"['Producer_10', 'Producer_9', 'Producer_8', 'Producer_8']",1317.0,[12 12 15 12],5
+37623,high_hor_start_A-high_hor_middle1_A-high_hor_middle1_A-high_hor_middle4_A-high_hor_middle4_A-high_hor_end-high_hor_start_B-high_hor_end,"['Producer_1', 'Producer_11', 'Producer_10', 'Producer_10']",1366.5,[ 3  3 15  6],5
+37624,high_hor_start_A-high_hor_middle1_A-high_hor_middle1_A-high_hor_middle4_A-high_hor_middle4_A-high_hor_end-high_hor_start_B-high_hor_end,"['Producer_1', 'Producer_11', 'Producer_12', 'Producer_12']",1366.5,[ 3  3 15  6],5
+37625,high_hor_start_A-high_hor_middle4_A-high_hor_start_B-high_hor_middle1_B-high_hor_middle4_A-high_hor_end-high_hor_middle1_B-high_hor_end,"['Producer_9', 'Producer_2', 'Producer_12', 'Producer_12']",1318.5,[12 12 15 12],5
+37626,high_hor_start_A-high_hor_middle4_A-high_hor_start_B-high_hor_middle1_B-high_hor_middle4_A-high_hor_end-high_hor_middle1_B-high_hor_end,"['Producer_9', 'Producer_6', 'Producer_12', 'Producer_12']",1321.5,[12 12 15 12],5
+37629,high_hor_start_B-high_hor_middle1_B-high_hor_start_A-high_hor_middle4_A-high_hor_middle4_A-high_hor_end-high_hor_middle1_B-high_hor_end,"['Producer_10', 'Producer_9', 'Producer_12', 'Producer_12']",1317.0,[12 12 15 12],5
