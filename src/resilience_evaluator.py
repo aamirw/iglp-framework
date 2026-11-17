@@ -10,7 +10,7 @@ from src.planner.runner import generate_plans, post_process_plans
 from src.resilience_analysis.analysis import generate_analysis
 from src.resilience_analysis.summarize_tests import show_summary_plot
 from src.resilience_analysis.transformOutputToCSV import transform_to_csv
-from src.test_configs.ijiem import test_scenarios
+from src.test_configs.experiments import test_scenarios
 from src.utils.consts import PLANNER_DEFAULT_ARGS
 from src.utils.paths import DATA_PATH
 
