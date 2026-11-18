@@ -27,6 +27,10 @@ python -m src.resilience_evaluator
 
 ## Data
 
-Results along with other data such as production network scenarios data, planner inputs-outputs, analysis output will be written to `data/`.
+The input to IG-LP, i.e., test configurations is configured in `src/test_configs/experiments.py`. 
+
+Results along with other data such as production network scenarios data (generated_vc_scenarios), planner inputs-outputs, analysis output will be written to the auto-generated `data/` directory.
 
 ## License
+
+This project is licensed under the European Union Public Licence (EUPL), Version 1.2.
