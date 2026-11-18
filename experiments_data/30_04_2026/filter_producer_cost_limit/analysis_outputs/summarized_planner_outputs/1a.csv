@@ -1,0 +1,16 @@
+planId,combinedStatesName,producers,totalCost,stepRedundancyCount,valueChainsCount
+30930,medium_hor_start_A-medium_hor_end,['Producer_8'],800.0,[2],7
+30931,medium_hor_start_A-medium_hor_end,['Producer_11'],800.0,[2],7
+30932,medium_hor_start_A-medium_hor_middle3_A-medium_hor_middle3_A-medium_hor_end,"['Producer_7', 'Producer_4']",876.5,[2 5],7
+30933,medium_hor_start_A-medium_hor_middle3_A-medium_hor_middle3_A-medium_hor_end,"['Producer_10', 'Producer_4']",866.0,[2 5],7
+30934,medium_hor_start_A-medium_hor_middle1_A-medium_hor_middle1_A-medium_hor_end,"['Producer_1', 'Producer_9']",884.0,[8 4],7
+30935,medium_hor_start_A-medium_hor_middle1_A-medium_hor_middle1_A-medium_hor_end,"['Producer_5', 'Producer_9']",851.0,[8 4],7
+30936,medium_hor_start_A-medium_hor_middle2_A-medium_hor_middle2_A-medium_hor_end,"['Producer_7', 'Producer_9']",876.5,[3 4],7
+30937,medium_hor_start_A-medium_hor_middle2_A-medium_hor_middle2_A-medium_hor_end,"['Producer_10', 'Producer_9']",866.0,[3 4],7
+30938,medium_hor_start_A-medium_hor_middle1_A-medium_hor_middle1_A-medium_hor_end,"['Producer_1', 'Producer_12']",884.0,[8 4],7
+30939,medium_hor_start_A-medium_hor_middle1_A-medium_hor_middle1_A-medium_hor_end,"['Producer_5', 'Producer_12']",851.0,[8 4],7
+30943,medium_hor_start_A-medium_hor_middle1_A-medium_hor_middle1_A-medium_hor_middle3_A-medium_hor_middle3_A-medium_hor_end,"['Producer_5', 'Producer_8', 'Producer_4']",911.0,[8 2 5],7
+30945,medium_hor_start_A-medium_hor_middle1_A-medium_hor_middle1_A-medium_hor_middle3_A-medium_hor_middle3_A-medium_hor_end,"['Producer_5', 'Producer_11', 'Producer_4']",933.5,[8 2 5],7
+30947,medium_hor_start_A-medium_hor_middle2_A-medium_hor_middle2_A-medium_hor_middle3_A-medium_hor_middle3_A-medium_hor_end,"['Producer_10', 'Producer_12', 'Producer_4']",926.0,[3 1 5],7
+30949,medium_hor_start_A-medium_hor_middle1_A-medium_hor_middle1_A-medium_hor_middle2_A-medium_hor_middle2_A-medium_hor_end,"['Producer_5', 'Producer_2', 'Producer_9']",918.5,[8 2 4],7
+30951,medium_hor_start_A-medium_hor_middle1_A-medium_hor_middle1_A-medium_hor_middle2_A-medium_hor_middle2_A-medium_hor_end,"['Producer_5', 'Producer_6', 'Producer_9']",921.5,[8 2 4],7

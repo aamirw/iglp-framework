@@ -1,0 +1,4454 @@
+{
+    "optimizeFor": "cost",
+    "minimumPlan": 800,
+    "maximumPlan": 951.5,
+    "numberOfPlans": 48,
+    "plans": [
+        {
+            "planId": 15603,
+            "planValue": 800,
+            "actions": [
+                {
+                    "id": 6,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 12,
+                    "costs": 800,
+                    "producerId": {
+                        "id": 5,
+                        "name": "Producer_5",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 12,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15604,
+            "planValue": 800,
+            "actions": [
+                {
+                    "id": 14,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 12,
+                    "costs": 800,
+                    "producerId": {
+                        "id": 9,
+                        "name": "Producer_9",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 12,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15611,
+            "planValue": 860.0,
+            "actions": [
+                {
+                    "id": 13,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 4,
+                        "name": "medium_hor_middle3_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 29.0,
+                    "costs": 660.0,
+                    "producerId": {
+                        "id": 8,
+                        "name": "Producer_8",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 29.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 10,
+                    "preconditions": [
+                        {
+                            "id": 4,
+                            "name": "medium_hor_middle3_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 29.0,
+                    "endingPoint": 32.0,
+                    "costs": 200,
+                    "producerId": {
+                        "id": 7,
+                        "name": "Producer_7",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 3,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15607,
+            "planValue": 860.0,
+            "actions": [
+                {
+                    "id": 21,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 2,
+                        "name": "medium_hor_middle1_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 23.0,
+                    "costs": 260.0,
+                    "producerId": {
+                        "id": 12,
+                        "name": "Producer_12",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 23.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 8,
+                    "preconditions": [
+                        {
+                            "id": 2,
+                            "name": "medium_hor_middle1_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 23.0,
+                    "endingPoint": 32.0,
+                    "costs": 600,
+                    "producerId": {
+                        "id": 6,
+                        "name": "Producer_6",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 9,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15609,
+            "planValue": 860.0,
+            "actions": [
+                {
+                    "id": 12,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 3,
+                        "name": "medium_hor_middle2_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 26.0,
+                    "costs": 460.0,
+                    "producerId": {
+                        "id": 8,
+                        "name": "Producer_8",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 26.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 9,
+                    "preconditions": [
+                        {
+                            "id": 3,
+                            "name": "medium_hor_middle2_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 26.0,
+                    "endingPoint": 32.0,
+                    "costs": 400,
+                    "producerId": {
+                        "id": 6,
+                        "name": "Producer_6",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 6,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15614,
+            "planValue": 860.0,
+            "actions": [
+                {
+                    "id": 21,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 2,
+                        "name": "medium_hor_middle1_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 23.0,
+                    "costs": 260.0,
+                    "producerId": {
+                        "id": 12,
+                        "name": "Producer_12",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 23.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 17,
+                    "preconditions": [
+                        {
+                            "id": 2,
+                            "name": "medium_hor_middle1_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 23.0,
+                    "endingPoint": 32.0,
+                    "costs": 600,
+                    "producerId": {
+                        "id": 10,
+                        "name": "Producer_10",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 9,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15616,
+            "planValue": 860.0,
+            "actions": [
+                {
+                    "id": 12,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 3,
+                        "name": "medium_hor_middle2_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 26.0,
+                    "costs": 460.0,
+                    "producerId": {
+                        "id": 8,
+                        "name": "Producer_8",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 26.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 19,
+                    "preconditions": [
+                        {
+                            "id": 3,
+                            "name": "medium_hor_middle2_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 26.0,
+                    "endingPoint": 32.0,
+                    "costs": 400,
+                    "producerId": {
+                        "id": 11,
+                        "name": "Producer_11",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 6,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15618,
+            "planValue": 860.0,
+            "actions": [
+                {
+                    "id": 13,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 4,
+                        "name": "medium_hor_middle3_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 29.0,
+                    "costs": 660.0,
+                    "producerId": {
+                        "id": 8,
+                        "name": "Producer_8",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 29.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 20,
+                    "preconditions": [
+                        {
+                            "id": 4,
+                            "name": "medium_hor_middle3_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 29.0,
+                    "endingPoint": 32.0,
+                    "costs": 200,
+                    "producerId": {
+                        "id": 12,
+                        "name": "Producer_12",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 3,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15608,
+            "planValue": 863.0,
+            "actions": [
+                {
+                    "id": 4,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 3,
+                        "name": "medium_hor_middle2_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 27.0,
+                    "costs": 463.0,
+                    "producerId": {
+                        "id": 4,
+                        "name": "Producer_4",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 27.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 9,
+                    "preconditions": [
+                        {
+                            "id": 3,
+                            "name": "medium_hor_middle2_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 27.0,
+                    "endingPoint": 33.0,
+                    "costs": 400,
+                    "producerId": {
+                        "id": 6,
+                        "name": "Producer_6",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 6,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15610,
+            "planValue": 863.0,
+            "actions": [
+                {
+                    "id": 5,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 4,
+                        "name": "medium_hor_middle3_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 30.0,
+                    "costs": 663.0,
+                    "producerId": {
+                        "id": 4,
+                        "name": "Producer_4",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 30.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 10,
+                    "preconditions": [
+                        {
+                            "id": 4,
+                            "name": "medium_hor_middle3_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 30.0,
+                    "endingPoint": 33.0,
+                    "costs": 200,
+                    "producerId": {
+                        "id": 7,
+                        "name": "Producer_7",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 3,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15615,
+            "planValue": 863.0,
+            "actions": [
+                {
+                    "id": 4,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 3,
+                        "name": "medium_hor_middle2_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 27.0,
+                    "costs": 463.0,
+                    "producerId": {
+                        "id": 4,
+                        "name": "Producer_4",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 27.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 19,
+                    "preconditions": [
+                        {
+                            "id": 3,
+                            "name": "medium_hor_middle2_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 27.0,
+                    "endingPoint": 33.0,
+                    "costs": 400,
+                    "producerId": {
+                        "id": 11,
+                        "name": "Producer_11",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 6,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15617,
+            "planValue": 863.0,
+            "actions": [
+                {
+                    "id": 5,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 4,
+                        "name": "medium_hor_middle3_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 30.0,
+                    "costs": 663.0,
+                    "producerId": {
+                        "id": 4,
+                        "name": "Producer_4",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 30.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 20,
+                    "preconditions": [
+                        {
+                            "id": 4,
+                            "name": "medium_hor_middle3_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 30.0,
+                    "endingPoint": 33.0,
+                    "costs": 200,
+                    "producerId": {
+                        "id": 12,
+                        "name": "Producer_12",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 3,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15606,
+            "planValue": 876.5,
+            "actions": [
+                {
+                    "id": 11,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 2,
+                        "name": "medium_hor_middle1_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 28.5,
+                    "costs": 276.5,
+                    "producerId": {
+                        "id": 7,
+                        "name": "Producer_7",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 28.5,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 8,
+                    "preconditions": [
+                        {
+                            "id": 2,
+                            "name": "medium_hor_middle1_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 28.5,
+                    "endingPoint": 37.5,
+                    "costs": 600,
+                    "producerId": {
+                        "id": 6,
+                        "name": "Producer_6",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 9,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15613,
+            "planValue": 876.5,
+            "actions": [
+                {
+                    "id": 11,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 2,
+                        "name": "medium_hor_middle1_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 28.5,
+                    "costs": 276.5,
+                    "producerId": {
+                        "id": 7,
+                        "name": "Producer_7",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 28.5,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 17,
+                    "preconditions": [
+                        {
+                            "id": 2,
+                            "name": "medium_hor_middle1_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 28.5,
+                    "endingPoint": 37.5,
+                    "costs": 600,
+                    "producerId": {
+                        "id": 10,
+                        "name": "Producer_10",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 9,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15605,
+            "planValue": 884.0,
+            "actions": [
+                {
+                    "id": 1,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 2,
+                        "name": "medium_hor_middle1_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 31.0,
+                    "costs": 284.0,
+                    "producerId": {
+                        "id": 1,
+                        "name": "Producer_1",
+                        "trade": "A",
+                        "enterprise": "micro",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 31.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 8,
+                    "preconditions": [
+                        {
+                            "id": 2,
+                            "name": "medium_hor_middle1_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 31.0,
+                    "endingPoint": 40.0,
+                    "costs": 600,
+                    "producerId": {
+                        "id": 6,
+                        "name": "Producer_6",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 9,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15612,
+            "planValue": 884.0,
+            "actions": [
+                {
+                    "id": 1,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 2,
+                        "name": "medium_hor_middle1_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 31.0,
+                    "costs": 284.0,
+                    "producerId": {
+                        "id": 1,
+                        "name": "Producer_1",
+                        "trade": "A",
+                        "enterprise": "micro",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 31.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 17,
+                    "preconditions": [
+                        {
+                            "id": 2,
+                            "name": "medium_hor_middle1_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 31.0,
+                    "endingPoint": 40.0,
+                    "costs": 600,
+                    "producerId": {
+                        "id": 10,
+                        "name": "Producer_10",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 9,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15627,
+            "planValue": 935.0,
+            "actions": [
+                {
+                    "id": 1,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 2,
+                        "name": "medium_hor_middle1_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 31.0,
+                    "costs": 284.0,
+                    "producerId": {
+                        "id": 1,
+                        "name": "Producer_1",
+                        "trade": "A",
+                        "enterprise": "micro",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 31.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 7,
+                    "preconditions": [
+                        {
+                            "id": 2,
+                            "name": "medium_hor_middle1_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 4,
+                        "name": "medium_hor_middle3_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 31.0,
+                    "endingPoint": 54.0,
+                    "costs": 451.0,
+                    "producerId": {
+                        "id": 5,
+                        "name": "Producer_5",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 23.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 10,
+                    "preconditions": [
+                        {
+                            "id": 4,
+                            "name": "medium_hor_middle3_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 54.0,
+                    "endingPoint": 57.0,
+                    "costs": 200,
+                    "producerId": {
+                        "id": 7,
+                        "name": "Producer_7",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 3,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15638,
+            "planValue": 935.0,
+            "actions": [
+                {
+                    "id": 1,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 2,
+                        "name": "medium_hor_middle1_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 31.0,
+                    "costs": 284.0,
+                    "producerId": {
+                        "id": 1,
+                        "name": "Producer_1",
+                        "trade": "A",
+                        "enterprise": "micro",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 31.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 15,
+                    "preconditions": [
+                        {
+                            "id": 2,
+                            "name": "medium_hor_middle1_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 3,
+                        "name": "medium_hor_middle2_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 31.0,
+                    "endingPoint": 51.0,
+                    "costs": 251.0,
+                    "producerId": {
+                        "id": 9,
+                        "name": "Producer_9",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 20.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 19,
+                    "preconditions": [
+                        {
+                            "id": 3,
+                            "name": "medium_hor_middle2_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 51.0,
+                    "endingPoint": 57.0,
+                    "costs": 400,
+                    "producerId": {
+                        "id": 11,
+                        "name": "Producer_11",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 6,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15643,
+            "planValue": 935.0,
+            "actions": [
+                {
+                    "id": 1,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 2,
+                        "name": "medium_hor_middle1_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 31.0,
+                    "costs": 284.0,
+                    "producerId": {
+                        "id": 1,
+                        "name": "Producer_1",
+                        "trade": "A",
+                        "enterprise": "micro",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 31.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 7,
+                    "preconditions": [
+                        {
+                            "id": 2,
+                            "name": "medium_hor_middle1_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 4,
+                        "name": "medium_hor_middle3_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 31.0,
+                    "endingPoint": 54.0,
+                    "costs": 451.0,
+                    "producerId": {
+                        "id": 5,
+                        "name": "Producer_5",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 23.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 20,
+                    "preconditions": [
+                        {
+                            "id": 4,
+                            "name": "medium_hor_middle3_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 54.0,
+                    "endingPoint": 57.0,
+                    "costs": 200,
+                    "producerId": {
+                        "id": 12,
+                        "name": "Producer_12",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 3,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15631,
+            "planValue": 942.5,
+            "actions": [
+                {
+                    "id": 11,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 2,
+                        "name": "medium_hor_middle1_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 28.5,
+                    "costs": 276.5,
+                    "producerId": {
+                        "id": 7,
+                        "name": "Producer_7",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 28.5,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 16,
+                    "preconditions": [
+                        {
+                            "id": 2,
+                            "name": "medium_hor_middle1_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 4,
+                        "name": "medium_hor_middle3_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 28.5,
+                    "endingPoint": 56.5,
+                    "costs": 466.0,
+                    "producerId": {
+                        "id": 10,
+                        "name": "Producer_10",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 28.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 10,
+                    "preconditions": [
+                        {
+                            "id": 4,
+                            "name": "medium_hor_middle3_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 56.5,
+                    "endingPoint": 59.5,
+                    "costs": 200,
+                    "producerId": {
+                        "id": 7,
+                        "name": "Producer_7",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 3,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15634,
+            "planValue": 942.5,
+            "actions": [
+                {
+                    "id": 12,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 3,
+                        "name": "medium_hor_middle2_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 26.0,
+                    "costs": 460.0,
+                    "producerId": {
+                        "id": 8,
+                        "name": "Producer_8",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 26.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 18,
+                    "preconditions": [
+                        {
+                            "id": 3,
+                            "name": "medium_hor_middle2_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 4,
+                        "name": "medium_hor_middle3_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 26.0,
+                    "endingPoint": 56.5,
+                    "costs": 282.5,
+                    "producerId": {
+                        "id": 11,
+                        "name": "Producer_11",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 30.5,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 10,
+                    "preconditions": [
+                        {
+                            "id": 4,
+                            "name": "medium_hor_middle3_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 56.5,
+                    "endingPoint": 59.5,
+                    "costs": 200,
+                    "producerId": {
+                        "id": 7,
+                        "name": "Producer_7",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 3,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15647,
+            "planValue": 942.5,
+            "actions": [
+                {
+                    "id": 11,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 2,
+                        "name": "medium_hor_middle1_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 28.5,
+                    "costs": 276.5,
+                    "producerId": {
+                        "id": 7,
+                        "name": "Producer_7",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 28.5,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 16,
+                    "preconditions": [
+                        {
+                            "id": 2,
+                            "name": "medium_hor_middle1_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 4,
+                        "name": "medium_hor_middle3_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 28.5,
+                    "endingPoint": 56.5,
+                    "costs": 466.0,
+                    "producerId": {
+                        "id": 10,
+                        "name": "Producer_10",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 28.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 20,
+                    "preconditions": [
+                        {
+                            "id": 4,
+                            "name": "medium_hor_middle3_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 56.5,
+                    "endingPoint": 59.5,
+                    "costs": 200,
+                    "producerId": {
+                        "id": 12,
+                        "name": "Producer_12",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 3,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15650,
+            "planValue": 942.5,
+            "actions": [
+                {
+                    "id": 12,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 3,
+                        "name": "medium_hor_middle2_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 26.0,
+                    "costs": 460.0,
+                    "producerId": {
+                        "id": 8,
+                        "name": "Producer_8",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 26.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 18,
+                    "preconditions": [
+                        {
+                            "id": 3,
+                            "name": "medium_hor_middle2_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 4,
+                        "name": "medium_hor_middle3_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 26.0,
+                    "endingPoint": 56.5,
+                    "costs": 282.5,
+                    "producerId": {
+                        "id": 11,
+                        "name": "Producer_11",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 30.5,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 20,
+                    "preconditions": [
+                        {
+                            "id": 4,
+                            "name": "medium_hor_middle3_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 56.5,
+                    "endingPoint": 59.5,
+                    "costs": 200,
+                    "producerId": {
+                        "id": 12,
+                        "name": "Producer_12",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 3,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15639,
+            "planValue": 927.5,
+            "actions": [
+                {
+                    "id": 11,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 2,
+                        "name": "medium_hor_middle1_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 28.5,
+                    "costs": 276.5,
+                    "producerId": {
+                        "id": 7,
+                        "name": "Producer_7",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 28.5,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 15,
+                    "preconditions": [
+                        {
+                            "id": 2,
+                            "name": "medium_hor_middle1_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 3,
+                        "name": "medium_hor_middle2_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 28.5,
+                    "endingPoint": 48.5,
+                    "costs": 251.0,
+                    "producerId": {
+                        "id": 9,
+                        "name": "Producer_9",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 20.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 19,
+                    "preconditions": [
+                        {
+                            "id": 3,
+                            "name": "medium_hor_middle2_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 48.5,
+                    "endingPoint": 54.5,
+                    "costs": 400,
+                    "producerId": {
+                        "id": 11,
+                        "name": "Producer_11",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 6,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15644,
+            "planValue": 927.5,
+            "actions": [
+                {
+                    "id": 11,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 2,
+                        "name": "medium_hor_middle1_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 28.5,
+                    "costs": 276.5,
+                    "producerId": {
+                        "id": 7,
+                        "name": "Producer_7",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 28.5,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 7,
+                    "preconditions": [
+                        {
+                            "id": 2,
+                            "name": "medium_hor_middle1_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 4,
+                        "name": "medium_hor_middle3_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 28.5,
+                    "endingPoint": 51.5,
+                    "costs": 451.0,
+                    "producerId": {
+                        "id": 5,
+                        "name": "Producer_5",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 23.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 20,
+                    "preconditions": [
+                        {
+                            "id": 4,
+                            "name": "medium_hor_middle3_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 51.5,
+                    "endingPoint": 54.5,
+                    "costs": 200,
+                    "producerId": {
+                        "id": 12,
+                        "name": "Producer_12",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 3,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15622,
+            "planValue": 935.0,
+            "actions": [
+                {
+                    "id": 1,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 2,
+                        "name": "medium_hor_middle1_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 31.0,
+                    "costs": 284.0,
+                    "producerId": {
+                        "id": 1,
+                        "name": "Producer_1",
+                        "trade": "A",
+                        "enterprise": "micro",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 31.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 15,
+                    "preconditions": [
+                        {
+                            "id": 2,
+                            "name": "medium_hor_middle1_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 3,
+                        "name": "medium_hor_middle2_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 31.0,
+                    "endingPoint": 51.0,
+                    "costs": 251.0,
+                    "producerId": {
+                        "id": 9,
+                        "name": "Producer_9",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 20.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 9,
+                    "preconditions": [
+                        {
+                            "id": 3,
+                            "name": "medium_hor_middle2_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 51.0,
+                    "endingPoint": 57.0,
+                    "costs": 400,
+                    "producerId": {
+                        "id": 6,
+                        "name": "Producer_6",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 6,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15640,
+            "planValue": 911.0,
+            "actions": [
+                {
+                    "id": 21,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 2,
+                        "name": "medium_hor_middle1_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 23.0,
+                    "costs": 260.0,
+                    "producerId": {
+                        "id": 12,
+                        "name": "Producer_12",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 23.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 15,
+                    "preconditions": [
+                        {
+                            "id": 2,
+                            "name": "medium_hor_middle1_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 3,
+                        "name": "medium_hor_middle2_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 23.0,
+                    "endingPoint": 43.0,
+                    "costs": 251.0,
+                    "producerId": {
+                        "id": 9,
+                        "name": "Producer_9",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 20.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 19,
+                    "preconditions": [
+                        {
+                            "id": 3,
+                            "name": "medium_hor_middle2_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 43.0,
+                    "endingPoint": 49.0,
+                    "costs": 400,
+                    "producerId": {
+                        "id": 11,
+                        "name": "Producer_11",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 6,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15629,
+            "planValue": 911.0,
+            "actions": [
+                {
+                    "id": 21,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 2,
+                        "name": "medium_hor_middle1_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 23.0,
+                    "costs": 260.0,
+                    "producerId": {
+                        "id": 12,
+                        "name": "Producer_12",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 23.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 7,
+                    "preconditions": [
+                        {
+                            "id": 2,
+                            "name": "medium_hor_middle1_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 4,
+                        "name": "medium_hor_middle3_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 23.0,
+                    "endingPoint": 46.0,
+                    "costs": 451.0,
+                    "producerId": {
+                        "id": 5,
+                        "name": "Producer_5",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 23.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 10,
+                    "preconditions": [
+                        {
+                            "id": 4,
+                            "name": "medium_hor_middle3_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 46.0,
+                    "endingPoint": 49.0,
+                    "costs": 200,
+                    "producerId": {
+                        "id": 7,
+                        "name": "Producer_7",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 3,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15624,
+            "planValue": 911.0,
+            "actions": [
+                {
+                    "id": 21,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 2,
+                        "name": "medium_hor_middle1_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 23.0,
+                    "costs": 260.0,
+                    "producerId": {
+                        "id": 12,
+                        "name": "Producer_12",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 23.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 15,
+                    "preconditions": [
+                        {
+                            "id": 2,
+                            "name": "medium_hor_middle1_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 3,
+                        "name": "medium_hor_middle2_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 23.0,
+                    "endingPoint": 43.0,
+                    "costs": 251.0,
+                    "producerId": {
+                        "id": 9,
+                        "name": "Producer_9",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 20.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 9,
+                    "preconditions": [
+                        {
+                            "id": 3,
+                            "name": "medium_hor_middle2_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 43.0,
+                    "endingPoint": 49.0,
+                    "costs": 400,
+                    "producerId": {
+                        "id": 6,
+                        "name": "Producer_6",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 6,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15645,
+            "planValue": 911.0,
+            "actions": [
+                {
+                    "id": 21,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 2,
+                        "name": "medium_hor_middle1_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 23.0,
+                    "costs": 260.0,
+                    "producerId": {
+                        "id": 12,
+                        "name": "Producer_12",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 23.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 7,
+                    "preconditions": [
+                        {
+                            "id": 2,
+                            "name": "medium_hor_middle1_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 4,
+                        "name": "medium_hor_middle3_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 23.0,
+                    "endingPoint": 46.0,
+                    "costs": 451.0,
+                    "producerId": {
+                        "id": 5,
+                        "name": "Producer_5",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 23.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 20,
+                    "preconditions": [
+                        {
+                            "id": 4,
+                            "name": "medium_hor_middle3_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 46.0,
+                    "endingPoint": 49.0,
+                    "costs": 200,
+                    "producerId": {
+                        "id": 12,
+                        "name": "Producer_12",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 3,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15632,
+            "planValue": 926.0,
+            "actions": [
+                {
+                    "id": 21,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 2,
+                        "name": "medium_hor_middle1_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 23.0,
+                    "costs": 260.0,
+                    "producerId": {
+                        "id": 12,
+                        "name": "Producer_12",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 23.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 16,
+                    "preconditions": [
+                        {
+                            "id": 2,
+                            "name": "medium_hor_middle1_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 4,
+                        "name": "medium_hor_middle3_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 23.0,
+                    "endingPoint": 51.0,
+                    "costs": 466.0,
+                    "producerId": {
+                        "id": 10,
+                        "name": "Producer_10",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 28.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 10,
+                    "preconditions": [
+                        {
+                            "id": 4,
+                            "name": "medium_hor_middle3_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 51.0,
+                    "endingPoint": 54.0,
+                    "costs": 200,
+                    "producerId": {
+                        "id": 7,
+                        "name": "Producer_7",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 3,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15648,
+            "planValue": 926.0,
+            "actions": [
+                {
+                    "id": 21,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 2,
+                        "name": "medium_hor_middle1_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 23.0,
+                    "costs": 260.0,
+                    "producerId": {
+                        "id": 12,
+                        "name": "Producer_12",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 23.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 16,
+                    "preconditions": [
+                        {
+                            "id": 2,
+                            "name": "medium_hor_middle1_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 4,
+                        "name": "medium_hor_middle3_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 23.0,
+                    "endingPoint": 51.0,
+                    "costs": 466.0,
+                    "producerId": {
+                        "id": 10,
+                        "name": "Producer_10",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 28.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 20,
+                    "preconditions": [
+                        {
+                            "id": 4,
+                            "name": "medium_hor_middle3_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 51.0,
+                    "endingPoint": 54.0,
+                    "costs": 200,
+                    "producerId": {
+                        "id": 12,
+                        "name": "Producer_12",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 3,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15621,
+            "planValue": 927.5,
+            "actions": [
+                {
+                    "id": 21,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 2,
+                        "name": "medium_hor_middle1_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 23.0,
+                    "costs": 260.0,
+                    "producerId": {
+                        "id": 12,
+                        "name": "Producer_12",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 23.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 2,
+                    "preconditions": [
+                        {
+                            "id": 2,
+                            "name": "medium_hor_middle1_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 3,
+                        "name": "medium_hor_middle2_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 23.0,
+                    "endingPoint": 48.5,
+                    "costs": 267.5,
+                    "producerId": {
+                        "id": 2,
+                        "name": "Producer_2",
+                        "trade": "A",
+                        "enterprise": "micro",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 25.5,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 9,
+                    "preconditions": [
+                        {
+                            "id": 3,
+                            "name": "medium_hor_middle2_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 48.5,
+                    "endingPoint": 54.5,
+                    "costs": 400,
+                    "producerId": {
+                        "id": 6,
+                        "name": "Producer_6",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 6,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15623,
+            "planValue": 927.5,
+            "actions": [
+                {
+                    "id": 11,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 2,
+                        "name": "medium_hor_middle1_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 28.5,
+                    "costs": 276.5,
+                    "producerId": {
+                        "id": 7,
+                        "name": "Producer_7",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 28.5,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 15,
+                    "preconditions": [
+                        {
+                            "id": 2,
+                            "name": "medium_hor_middle1_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 3,
+                        "name": "medium_hor_middle2_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 28.5,
+                    "endingPoint": 48.5,
+                    "costs": 251.0,
+                    "producerId": {
+                        "id": 9,
+                        "name": "Producer_9",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 20.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 9,
+                    "preconditions": [
+                        {
+                            "id": 3,
+                            "name": "medium_hor_middle2_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 48.5,
+                    "endingPoint": 54.5,
+                    "costs": 400,
+                    "producerId": {
+                        "id": 6,
+                        "name": "Producer_6",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 6,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15628,
+            "planValue": 927.5,
+            "actions": [
+                {
+                    "id": 11,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 2,
+                        "name": "medium_hor_middle1_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 28.5,
+                    "costs": 276.5,
+                    "producerId": {
+                        "id": 7,
+                        "name": "Producer_7",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 28.5,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 7,
+                    "preconditions": [
+                        {
+                            "id": 2,
+                            "name": "medium_hor_middle1_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 4,
+                        "name": "medium_hor_middle3_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 28.5,
+                    "endingPoint": 51.5,
+                    "costs": 451.0,
+                    "producerId": {
+                        "id": 5,
+                        "name": "Producer_5",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 23.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 10,
+                    "preconditions": [
+                        {
+                            "id": 4,
+                            "name": "medium_hor_middle3_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 51.5,
+                    "endingPoint": 54.5,
+                    "costs": 200,
+                    "producerId": {
+                        "id": 7,
+                        "name": "Producer_7",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 3,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15637,
+            "planValue": 927.5,
+            "actions": [
+                {
+                    "id": 21,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 2,
+                        "name": "medium_hor_middle1_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 23.0,
+                    "costs": 260.0,
+                    "producerId": {
+                        "id": 12,
+                        "name": "Producer_12",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 23.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 2,
+                    "preconditions": [
+                        {
+                            "id": 2,
+                            "name": "medium_hor_middle1_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 3,
+                        "name": "medium_hor_middle2_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 23.0,
+                    "endingPoint": 48.5,
+                    "costs": 267.5,
+                    "producerId": {
+                        "id": 2,
+                        "name": "Producer_2",
+                        "trade": "A",
+                        "enterprise": "micro",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 25.5,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 19,
+                    "preconditions": [
+                        {
+                            "id": 3,
+                            "name": "medium_hor_middle2_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 48.5,
+                    "endingPoint": 54.5,
+                    "costs": 400,
+                    "producerId": {
+                        "id": 11,
+                        "name": "Producer_11",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 6,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15620,
+            "planValue": 944.0,
+            "actions": [
+                {
+                    "id": 11,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 2,
+                        "name": "medium_hor_middle1_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 28.5,
+                    "costs": 276.5,
+                    "producerId": {
+                        "id": 7,
+                        "name": "Producer_7",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 28.5,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 2,
+                    "preconditions": [
+                        {
+                            "id": 2,
+                            "name": "medium_hor_middle1_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 3,
+                        "name": "medium_hor_middle2_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 28.5,
+                    "endingPoint": 54.0,
+                    "costs": 267.5,
+                    "producerId": {
+                        "id": 2,
+                        "name": "Producer_2",
+                        "trade": "A",
+                        "enterprise": "micro",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 25.5,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 9,
+                    "preconditions": [
+                        {
+                            "id": 3,
+                            "name": "medium_hor_middle2_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 54.0,
+                    "endingPoint": 60.0,
+                    "costs": 400,
+                    "producerId": {
+                        "id": 6,
+                        "name": "Producer_6",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 6,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15636,
+            "planValue": 944.0,
+            "actions": [
+                {
+                    "id": 11,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 2,
+                        "name": "medium_hor_middle1_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 28.5,
+                    "costs": 276.5,
+                    "producerId": {
+                        "id": 7,
+                        "name": "Producer_7",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 28.5,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 2,
+                    "preconditions": [
+                        {
+                            "id": 2,
+                            "name": "medium_hor_middle1_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 3,
+                        "name": "medium_hor_middle2_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 28.5,
+                    "endingPoint": 54.0,
+                    "costs": 267.5,
+                    "producerId": {
+                        "id": 2,
+                        "name": "Producer_2",
+                        "trade": "A",
+                        "enterprise": "micro",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 25.5,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 19,
+                    "preconditions": [
+                        {
+                            "id": 3,
+                            "name": "medium_hor_middle2_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 54.0,
+                    "endingPoint": 60.0,
+                    "costs": 400,
+                    "producerId": {
+                        "id": 11,
+                        "name": "Producer_11",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 6,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15626,
+            "planValue": 945.5,
+            "actions": [
+                {
+                    "id": 12,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 3,
+                        "name": "medium_hor_middle2_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 26.0,
+                    "costs": 460.0,
+                    "producerId": {
+                        "id": 8,
+                        "name": "Producer_8",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 26.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 3,
+                    "preconditions": [
+                        {
+                            "id": 3,
+                            "name": "medium_hor_middle2_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 4,
+                        "name": "medium_hor_middle3_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 26.0,
+                    "endingPoint": 57.5,
+                    "costs": 285.5,
+                    "producerId": {
+                        "id": 3,
+                        "name": "Producer_3",
+                        "trade": "A",
+                        "enterprise": "micro",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 31.5,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 10,
+                    "preconditions": [
+                        {
+                            "id": 4,
+                            "name": "medium_hor_middle3_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 57.5,
+                    "endingPoint": 60.5,
+                    "costs": 200,
+                    "producerId": {
+                        "id": 7,
+                        "name": "Producer_7",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 3,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15633,
+            "planValue": 945.5,
+            "actions": [
+                {
+                    "id": 4,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 3,
+                        "name": "medium_hor_middle2_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 27.0,
+                    "costs": 463.0,
+                    "producerId": {
+                        "id": 4,
+                        "name": "Producer_4",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 27.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 18,
+                    "preconditions": [
+                        {
+                            "id": 3,
+                            "name": "medium_hor_middle2_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 4,
+                        "name": "medium_hor_middle3_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 27.0,
+                    "endingPoint": 57.5,
+                    "costs": 282.5,
+                    "producerId": {
+                        "id": 11,
+                        "name": "Producer_11",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 30.5,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 10,
+                    "preconditions": [
+                        {
+                            "id": 4,
+                            "name": "medium_hor_middle3_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 57.5,
+                    "endingPoint": 60.5,
+                    "costs": 200,
+                    "producerId": {
+                        "id": 7,
+                        "name": "Producer_7",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 3,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15642,
+            "planValue": 945.5,
+            "actions": [
+                {
+                    "id": 12,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 3,
+                        "name": "medium_hor_middle2_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 26.0,
+                    "costs": 460.0,
+                    "producerId": {
+                        "id": 8,
+                        "name": "Producer_8",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 26.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 3,
+                    "preconditions": [
+                        {
+                            "id": 3,
+                            "name": "medium_hor_middle2_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 4,
+                        "name": "medium_hor_middle3_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 26.0,
+                    "endingPoint": 57.5,
+                    "costs": 285.5,
+                    "producerId": {
+                        "id": 3,
+                        "name": "Producer_3",
+                        "trade": "A",
+                        "enterprise": "micro",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 31.5,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 20,
+                    "preconditions": [
+                        {
+                            "id": 4,
+                            "name": "medium_hor_middle3_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 57.5,
+                    "endingPoint": 60.5,
+                    "costs": 200,
+                    "producerId": {
+                        "id": 12,
+                        "name": "Producer_12",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 3,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15649,
+            "planValue": 945.5,
+            "actions": [
+                {
+                    "id": 4,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 3,
+                        "name": "medium_hor_middle2_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 27.0,
+                    "costs": 463.0,
+                    "producerId": {
+                        "id": 4,
+                        "name": "Producer_4",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 27.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 18,
+                    "preconditions": [
+                        {
+                            "id": 3,
+                            "name": "medium_hor_middle2_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 4,
+                        "name": "medium_hor_middle3_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 27.0,
+                    "endingPoint": 57.5,
+                    "costs": 282.5,
+                    "producerId": {
+                        "id": 11,
+                        "name": "Producer_11",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 30.5,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 20,
+                    "preconditions": [
+                        {
+                            "id": 4,
+                            "name": "medium_hor_middle3_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 57.5,
+                    "endingPoint": 60.5,
+                    "costs": 200,
+                    "producerId": {
+                        "id": 12,
+                        "name": "Producer_12",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 3,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15625,
+            "planValue": 948.5,
+            "actions": [
+                {
+                    "id": 4,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 3,
+                        "name": "medium_hor_middle2_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 27.0,
+                    "costs": 463.0,
+                    "producerId": {
+                        "id": 4,
+                        "name": "Producer_4",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 27.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 3,
+                    "preconditions": [
+                        {
+                            "id": 3,
+                            "name": "medium_hor_middle2_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 4,
+                        "name": "medium_hor_middle3_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 27.0,
+                    "endingPoint": 58.5,
+                    "costs": 285.5,
+                    "producerId": {
+                        "id": 3,
+                        "name": "Producer_3",
+                        "trade": "A",
+                        "enterprise": "micro",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 31.5,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 10,
+                    "preconditions": [
+                        {
+                            "id": 4,
+                            "name": "medium_hor_middle3_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 58.5,
+                    "endingPoint": 61.5,
+                    "costs": 200,
+                    "producerId": {
+                        "id": 7,
+                        "name": "Producer_7",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 3,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15641,
+            "planValue": 948.5,
+            "actions": [
+                {
+                    "id": 4,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 3,
+                        "name": "medium_hor_middle2_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 27.0,
+                    "costs": 463.0,
+                    "producerId": {
+                        "id": 4,
+                        "name": "Producer_4",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 27.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 3,
+                    "preconditions": [
+                        {
+                            "id": 3,
+                            "name": "medium_hor_middle2_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 4,
+                        "name": "medium_hor_middle3_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 27.0,
+                    "endingPoint": 58.5,
+                    "costs": 285.5,
+                    "producerId": {
+                        "id": 3,
+                        "name": "Producer_3",
+                        "trade": "A",
+                        "enterprise": "micro",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 31.5,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 20,
+                    "preconditions": [
+                        {
+                            "id": 4,
+                            "name": "medium_hor_middle3_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 58.5,
+                    "endingPoint": 61.5,
+                    "costs": 200,
+                    "producerId": {
+                        "id": 12,
+                        "name": "Producer_12",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 3,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15630,
+            "planValue": 950.0,
+            "actions": [
+                {
+                    "id": 1,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 2,
+                        "name": "medium_hor_middle1_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 31.0,
+                    "costs": 284.0,
+                    "producerId": {
+                        "id": 1,
+                        "name": "Producer_1",
+                        "trade": "A",
+                        "enterprise": "micro",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 31.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 16,
+                    "preconditions": [
+                        {
+                            "id": 2,
+                            "name": "medium_hor_middle1_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 4,
+                        "name": "medium_hor_middle3_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 31.0,
+                    "endingPoint": 59.0,
+                    "costs": 466.0,
+                    "producerId": {
+                        "id": 10,
+                        "name": "Producer_10",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 28.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 10,
+                    "preconditions": [
+                        {
+                            "id": 4,
+                            "name": "medium_hor_middle3_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 59.0,
+                    "endingPoint": 62.0,
+                    "costs": 200,
+                    "producerId": {
+                        "id": 7,
+                        "name": "Producer_7",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 3,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15646,
+            "planValue": 950.0,
+            "actions": [
+                {
+                    "id": 1,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 2,
+                        "name": "medium_hor_middle1_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 31.0,
+                    "costs": 284.0,
+                    "producerId": {
+                        "id": 1,
+                        "name": "Producer_1",
+                        "trade": "A",
+                        "enterprise": "micro",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 31.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 16,
+                    "preconditions": [
+                        {
+                            "id": 2,
+                            "name": "medium_hor_middle1_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 4,
+                        "name": "medium_hor_middle3_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 31.0,
+                    "endingPoint": 59.0,
+                    "costs": 466.0,
+                    "producerId": {
+                        "id": 10,
+                        "name": "Producer_10",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 28.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 20,
+                    "preconditions": [
+                        {
+                            "id": 4,
+                            "name": "medium_hor_middle3_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 59.0,
+                    "endingPoint": 62.0,
+                    "costs": 200,
+                    "producerId": {
+                        "id": 12,
+                        "name": "Producer_12",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 3,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15619,
+            "planValue": 951.5,
+            "actions": [
+                {
+                    "id": 1,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 2,
+                        "name": "medium_hor_middle1_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 31.0,
+                    "costs": 284.0,
+                    "producerId": {
+                        "id": 1,
+                        "name": "Producer_1",
+                        "trade": "A",
+                        "enterprise": "micro",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 31.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 2,
+                    "preconditions": [
+                        {
+                            "id": 2,
+                            "name": "medium_hor_middle1_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 3,
+                        "name": "medium_hor_middle2_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 31.0,
+                    "endingPoint": 56.5,
+                    "costs": 267.5,
+                    "producerId": {
+                        "id": 2,
+                        "name": "Producer_2",
+                        "trade": "A",
+                        "enterprise": "micro",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 25.5,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 9,
+                    "preconditions": [
+                        {
+                            "id": 3,
+                            "name": "medium_hor_middle2_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 56.5,
+                    "endingPoint": 62.5,
+                    "costs": 400,
+                    "producerId": {
+                        "id": 6,
+                        "name": "Producer_6",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 6,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        },
+        {
+            "planId": 15635,
+            "planValue": 951.5,
+            "actions": [
+                {
+                    "id": 1,
+                    "preconditions": [
+                        {
+                            "id": 1,
+                            "name": "medium_hor_start_A",
+                            "isStartState": true,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 2,
+                        "name": "medium_hor_middle1_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 0,
+                    "endingPoint": 31.0,
+                    "costs": 284.0,
+                    "producerId": {
+                        "id": 1,
+                        "name": "Producer_1",
+                        "trade": "A",
+                        "enterprise": "micro",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 31.0,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 2,
+                    "preconditions": [
+                        {
+                            "id": 2,
+                            "name": "medium_hor_middle1_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 3,
+                        "name": "medium_hor_middle2_A",
+                        "isStartState": false,
+                        "isFinalState": false
+                    },
+                    "startingPoint": 31.0,
+                    "endingPoint": 56.5,
+                    "costs": 267.5,
+                    "producerId": {
+                        "id": 2,
+                        "name": "Producer_2",
+                        "trade": "A",
+                        "enterprise": "micro",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 25.5,
+                    "workingTimeInHours": 8.5
+                },
+                {
+                    "id": 19,
+                    "preconditions": [
+                        {
+                            "id": 3,
+                            "name": "medium_hor_middle2_A",
+                            "isStartState": false,
+                            "isFinalState": false
+                        }
+                    ],
+                    "finalStateId": {
+                        "id": 5,
+                        "name": "medium_hor_end",
+                        "isStartState": false,
+                        "isFinalState": true
+                    },
+                    "startingPoint": 56.5,
+                    "endingPoint": 62.5,
+                    "costs": 400,
+                    "producerId": {
+                        "id": 11,
+                        "name": "Producer_11",
+                        "trade": "A",
+                        "enterprise": "small",
+                        "valueChainParameters": {
+                            "socialCommitment": 3.5,
+                            "familyFriendly": 4,
+                            "sustainability": 2
+                        }
+                    },
+                    "processingTimeInWeeks": 6,
+                    "workingTimeInHours": 8.5
+                }
+            ]
+        }
+    ]
+}

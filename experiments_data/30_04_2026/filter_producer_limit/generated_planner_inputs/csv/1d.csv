@@ -1,0 +1,60 @@
+Value chain states:
+id,name,isStartState,isFinalState,index
+1,medium_hor_start_A,True,False,1
+2,medium_hor_middle1_A,False,False,2
+3,medium_hor_middle2_A,False,False,3
+4,medium_hor_middle3_A,False,False,4
+5,medium_hor_end,False,True,5
+Producers:
+id,name,trade,enterprise,valueChainParameters,meanShippingDistance
+1,Producer_1,A,micro,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",56
+2,Producer_2,A,micro,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",45
+3,Producer_3,A,micro,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",57
+4,Producer_4,A,micro,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",42
+5,Producer_5,A,micro,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",34
+6,Producer_6,A,small,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",47
+7,Producer_7,A,small,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",51
+8,Producer_8,A,small,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",40
+9,Producer_9,A,small,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",34
+10,Producer_10,A,small,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",44
+11,Producer_11,A,small,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",55
+12,Producer_12,A,small,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",40
+13,Producer_13,A,small,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",37
+14,Producer_14,A,small,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",34
+15,Producer_15,A,small,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",50
+16,Producer_16,A,small,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",54
+17,Producer_17,A,small,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",34
+18,Producer_18,A,small,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",38
+Process steps:
+initialStateId,initialStateName,finalStateId,finalStateName,stepsRequired,tradeRequired,preconditions,isFinalStep,producerId,costs,processingTimeInWeeks,workingTimeInHours
+1,medium_hor_start_A,2,medium_hor_middle1_A,1,A,,False,1,284.0,31.0,8.5
+2,medium_hor_middle1_A,3,medium_hor_middle2_A,1,A,,False,2,267.5,25.5,8.5
+3,medium_hor_middle2_A,4,medium_hor_middle3_A,1,A,,False,3,285.5,31.5,8.5
+4,medium_hor_middle3_A,5,medium_hor_end,1,A,,True,4,200,3,8.5
+1,medium_hor_start_A,2,medium_hor_middle1_A,1,A,,False,5,251.0,20.0,8.5
+1,medium_hor_start_A,3,medium_hor_middle2_A,2,A,,False,6,470.5,29.5,8.5
+1,medium_hor_start_A,4,medium_hor_middle3_A,3,A,,False,6,670.5,32.5,8.5
+1,medium_hor_start_A,5,medium_hor_end,4,A,,True,7,800,12,8.5
+2,medium_hor_middle1_A,4,medium_hor_middle3_A,2,A,,False,7,476.5,31.5,8.5
+2,medium_hor_middle1_A,5,medium_hor_end,3,A,,True,8,600,9,8.5
+3,medium_hor_middle2_A,5,medium_hor_end,2,A,,True,8,400,6,8.5
+1,medium_hor_start_A,3,medium_hor_middle2_A,2,A,,False,9,451.0,23.0,8.5
+1,medium_hor_start_A,4,medium_hor_middle3_A,3,A,,False,9,651.0,26.0,8.5
+1,medium_hor_start_A,5,medium_hor_end,4,A,,True,10,800,12,8.5
+2,medium_hor_middle1_A,3,medium_hor_middle2_A,1,A,,False,10,266.0,25.0,8.5
+2,medium_hor_middle1_A,4,medium_hor_middle3_A,2,A,,False,11,482.5,33.5,8.5
+2,medium_hor_middle1_A,5,medium_hor_end,3,A,,True,11,600,9,8.5
+3,medium_hor_middle2_A,4,medium_hor_middle3_A,1,A,,False,12,260.0,23.0,8.5
+3,medium_hor_middle2_A,5,medium_hor_end,2,A,,True,12,400,6,8.5
+4,medium_hor_middle3_A,5,medium_hor_end,1,A,,True,13,200,3,8.5
+1,medium_hor_start_A,2,medium_hor_middle1_A,1,A,,False,13,255.5,21.5,8.5
+1,medium_hor_start_A,3,medium_hor_middle2_A,2,A,,False,14,451.0,23.0,8.5
+1,medium_hor_start_A,4,medium_hor_middle3_A,3,A,,False,14,651.0,26.0,8.5
+1,medium_hor_start_A,5,medium_hor_end,4,A,,True,15,800,12,8.5
+2,medium_hor_middle1_A,3,medium_hor_middle2_A,1,A,,False,15,275.0,28.0,8.5
+2,medium_hor_middle1_A,4,medium_hor_middle3_A,2,A,,False,16,481.0,33.0,8.5
+2,medium_hor_middle1_A,5,medium_hor_end,3,A,,True,16,600,9,8.5
+3,medium_hor_middle2_A,4,medium_hor_middle3_A,1,A,,False,17,251.0,20.0,8.5
+3,medium_hor_middle2_A,5,medium_hor_end,2,A,,True,17,400,6,8.5
+4,medium_hor_middle3_A,5,medium_hor_end,1,A,,True,18,200,3,8.5
+1,medium_hor_start_A,2,medium_hor_middle1_A,1,A,,False,18,257.0,22.0,8.5

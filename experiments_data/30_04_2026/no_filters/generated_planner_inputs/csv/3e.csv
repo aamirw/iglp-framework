@@ -1,0 +1,41 @@
+Value chain states:
+id,name,isStartState,isFinalState,index
+1,high_hor_start_A,True,False,1
+3,high_hor_middle1_A,False,False,2
+5,high_hor_middle2_A,False,False,3
+6,high_hor_middle3_A,False,False,4
+7,high_hor_middle4_A,False,False,5
+2,high_hor_start_B,True,False,1
+4,high_hor_middle1_B,False,False,2
+8,high_hor_end,False,True,3
+Producers:
+id,name,trade,enterprise,valueChainParameters,meanShippingDistance
+1,Producer_1,A,micro,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",56
+2,Producer_2,B,micro,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",45
+3,Producer_3,A,micro,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",57
+4,Producer_4,B,micro,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",42
+5,Producer_5,A,micro,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",34
+6,Producer_6,B,micro,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",47
+7,Producer_7,A,micro,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",51
+8,Producer_8,B,micro,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",40
+9,Producer_9,A,micro,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",34
+10,Producer_10,B,small,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",44
+11,Producer_11,A,small,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",55
+12,Producer_12,B,small,"{'socialCommitment': 3.5, 'familyFriendly': 4, 'sustainability': 2}",40
+Process steps:
+initialStateId,initialStateName,finalStateId,finalStateName,stepsRequired,tradeRequired,preconditions,isFinalStep,producerId,costs,processingTimeInWeeks,workingTimeInHours
+1,high_hor_start_A,3,high_hor_middle1_A,1,A,,False,1,284.0,31.0,8.5
+2,high_hor_start_B,4,high_hor_middle1_B,1,B,,False,2,267.5,25.5,8.5
+3,high_hor_middle1_A,5,high_hor_middle2_A,1,A,,False,3,285.5,31.5,8.5
+4,high_hor_middle1_B,8,high_hor_end,1,B,"[{'id': 7, 'deliveryTimeLatestInWeeks': 1}]",True,4,200,3,8.5
+5,high_hor_middle2_A,6,high_hor_middle3_A,1,A,,False,5,251.0,20.0,8.5
+2,high_hor_start_B,4,high_hor_middle1_B,1,B,,False,6,270.5,26.5,8.5
+6,high_hor_middle3_A,7,high_hor_middle4_A,1,A,,False,7,276.5,28.5,8.5
+4,high_hor_middle1_B,8,high_hor_end,1,B,"[{'id': 7, 'deliveryTimeLatestInWeeks': 1}]",True,8,200,3,8.5
+7,high_hor_middle4_A,8,high_hor_end,1,A,"[{'id': 4, 'deliveryTimeLatestInWeeks': 1}]",True,9,200,3,8.5
+2,high_hor_start_B,8,high_hor_end,2,B,"[{'id': 7, 'deliveryTimeLatestInWeeks': 1}]",True,10,400,6,8.5
+2,high_hor_start_B,4,high_hor_middle1_B,1,B,,False,10,266.0,25.0,8.5
+1,high_hor_start_A,5,high_hor_middle2_A,2,A,,False,11,482.5,33.5,8.5
+1,high_hor_start_A,6,high_hor_middle3_A,3,A,,False,11,682.5,36.5,8.5
+2,high_hor_start_B,8,high_hor_end,2,B,"[{'id': 7, 'deliveryTimeLatestInWeeks': 1}]",True,12,400,6,8.5
+4,high_hor_middle1_B,8,high_hor_end,1,B,"[{'id': 7, 'deliveryTimeLatestInWeeks': 1}]",True,12,200,3,8.5
